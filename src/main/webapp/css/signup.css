@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* enroll-box */
+.enroll-box{
+    width:100%;
+    height:534px;
+    padding: 30px 0 40px;
+    background: #fcfcfc;
+    border-bottom: 1px solid #f4f4f4;
+}
+.enroll-form{
+    width:330px;
+    height:463px;
+    margin: 0 auto;
+}
+.enroll_tag{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+    color: #333;
+}
+.form_box{
+    width: 330px;
+    height:405px;
+}
+.li-J{
+    position: relative;
+    width:628px;
+    height: 52px;
+    margin-top:10px;
+}
+.enroll_input{
+    width:328px;
+    height: 50px;
+    z-index:2;
+}
+.enroll_label{
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    display: inline-block;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    color: #666;
+}
+
+.name_term{
+    position: absolute;
+    left: 350px;
+    top: 0px;
+    min-width: 160px;
+    height:52px;
+    background: orange;
+    font-size: 14px;
+    line-height:24PX;
+    color: #666;
+    display: none;
+}
+.name_no{
+    line-height:52PX;
+    color: #666;
+}
+.name_right{
+    line-height:25PX;
+    color: #666;
+}
+.enroll_code{
+    width: 180px;
+    height: 50px;
+    z-index:2;
+}
+#enroll_gain{
+
+    width:135px;
+    height: 54px;
+    margin-left:4px;
+    background:rgb(75, 73, 73);
+    text-align:center;
+    display:inline-block;
+}
+#enroll_gain a{
+    line-height:50px;
+    color: cornsilk;
+}
+.protocol{
+    height: 35px;
+    font-size: 12px;
+    line-height: 35px;
+    color: #666;
+    text-indent: 1em;
+}
+.protocol a{
+    color: #06c;
+    text-decoration: none;
+    font-size: 12px;
+    line-height:35px;
+}
+.enroll_btn{
+    display: block;
+    border: none;
+    width:330px;
+    height: 52px;
+    margin-top: 6px;
+    background: red;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 52px;
+    color:#fff;
+    border-radius: 3px;
+}

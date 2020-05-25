@@ -1,0 +1,365 @@
+@charset "UTF-8";
+
+
+#con-wrap{
+    width: 1200px;
+    height:500px;
+    margin:0 auto;
+}
+.con_src{
+    width:1200px;
+    margin-bottom:10px;
+}
+.consrc_text{
+    width: 720px;
+    height: 39px;
+    line-height: 39px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.consrc_text li{
+    float: left;
+}
+.consrc_text a{
+    height: 15px;
+    line-height: 15px;
+    font-size: 14px;
+    margin-right: 10px;
+    color: #333;
+}
+.consrc_text a:hover{
+    color: red;
+}
+.consrc_text i{
+    padding-left: 10px;
+}
+.con_box{
+    width: 1200px;
+    height: 597px;
+}
+.perfume_img{
+    width: 400px;
+    height: 300px;
+    margin-right:25px;
+    position: relative;
+}
+.pf_imgd{
+    width: 400px;
+    height: 400px;
+    padding:19px;
+    margin-bottom:25px;
+    border: 1px solid thistle;
+}
+.pf_mp4{
+    display: block;
+    top: 330px;
+    left: 45px;
+    position: absolute;
+    width:50px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align:center;
+    color: #fff;
+    border-radius: 10px;
+    background: orange;
+}
+.pf_imgd a:hover{
+    color: #333;
+    background: pink;
+}
+.img_box{
+    width: 100%;
+    height: 100%;
+}
+#pf_imgx{
+    width: 400px;
+    height:60px;
+    background: paleturquoise;
+}
+.imgx_box{
+    float: left;
+    width: 340px;
+    height: 60px;
+    overflow: hidden;
+}
+.imgx_box ul{
+    display:block;
+    position: relative;
+    width:600px;
+    height: 60px;
+}
+#pf_imgx span{
+    display: block;
+    width: 30px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.imgx_box li{
+    display:block;
+    
+    overflow: hidden;
+    float: left;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    border: 2px solid plum;
+    margin:0 4px;
+}
+.imgx_box li img{
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+
+}
+.pf_text{
+    width: 400px;
+    height: 17PX;
+    padding:12px 0;
+    font-size: 12px;
+    line-height:17px;
+}
+.pf_text a{
+    color: #333;
+}
+.pf_text a i{
+    margin-right: 5px;
+    color: red;
+}
+/* 商品内容 */
+.perfume_cont{
+   width: 571px; 
+   height: 300px;
+}
+.perfume_name{
+    width: 570px;
+    height:43px;
+    padding:10px 0;
+    overflow: hidden;
+}
+.pf_money{
+    width: 570px;
+    height: 80px;
+}
+.pf_money ul{
+    width: 570px;
+    height: 41px;
+    /*background:rgb(233, 169, 185)*/
+}
+.pf_money li{
+    float: left;
+}
+.pf_money li:nth-of-type(1){
+    width:60px;
+    height: 28px;
+    padding:0 10px 0 0;
+    font-size: 12px;
+    line-height:40px;
+    
+}
+.pf_money li:nth-of-type(2){
+    height: 28px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height:40px;
+    color: red;
+}
+.appraise{
+    width: 570px;
+    height: 37px;
+    /*background: rgb(241, 213, 241);*/
+}
+.appraise a{
+    float: right;
+    height: 37px;
+    font-size: 12px;
+    line-height:37px;
+    margin-left: 30px;
+    color: #333;
+}
+.appraise i{
+    color: red;
+}
+/* 规格 */
+.spec_box{
+    width: 570px;
+    height: 100px;
+    margin-bottom:5px;
+    margin-left: -30px;
+}
+.sp{
+    float: left;
+    width:90px;
+    height: 40px;
+    text-align: right;
+    font-family: simsun;
+    font-size: 12px;
+    line-height: 40px;
+}
+.spec{
+    float: left;
+    width: 480px;
+    height: 90px;
+}
+.spec_img{
+    float: left;
+    display: block;
+    height: 42px;
+    line-height:42px;
+    font-size: 12px;
+    margin: 2px 8px 2px 0;
+    border: thistle 1px solid;
+    overflow: hidden;
+    color: #000;
+}
+.spec_img i{
+    display:block;
+    float: left;
+    margin-top:7px;
+    width: 30px;
+    height:30px;
+    margin-right: 10px;
+}
+.spec_img i img{
+    width: 100%;
+    height: 100%;
+}
+.region{
+    width: 600px;
+    height: 50px;
+    /*padding-top:15px;*/
+    border-top:1px solid #666;
+}
+.gcd{
+    font-size: 12px;
+    line-height:25px;
+}
+.gcd dt{ 
+    width: 60px;
+    margin-top:5px;
+    float: left;
+}
+.delivery li{
+    float: left;
+    height: 20px;
+    border: wheat 1px solid;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+.mod_cuputing{
+    width: 500px;
+    height: 48px;
+    padding: 0px 0 30px 0px;
+    border-bottom:1px dashed #666;
+}
+.sp_sl{
+    display:block;
+    text-align: center;
+    line-height: 46px;
+    width: 46px;
+    height:46px;
+    border: 1px solid #666;
+}
+.sp_span{
+    float: left;
+    width: 24px;
+    height: 48px;
+}
+.sp_span input{
+    text-align: center;
+    line-height: 20px;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+.cart{
+    display:block;
+    width: 130px;
+    height: 48px;
+    margin-left: 8px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 16px;
+    color: #fff;
+    background:red;
+}
+.cart:hover{
+    background: #c43333;
+}
+.cart_text{
+    font-size: 12px;
+    background: 0;
+    line-height: 76px;
+    font-weight: normal;
+    margin-left: 10px;
+
+}
+.cart_bottom{
+    width: 570px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+}
+.cart_bottom a{
+    margin-left: 20px;
+    color: #333;
+}
+.cart_footer{
+    font-size: 12px;
+}
+
+.perfume_t{
+    width:178px;
+    border: 1px rgb(224, 224, 224)solid;
+    margin-left: 20px;
+}
+.perfume_t h2{
+    width: 178px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+  
+}
+.perfume_t h2 a{
+    margin-left: 10px;
+    font-size: 12px;
+    color: salmon;
+}
+.perfume_t li{
+    width:130px;
+    margin: 0 24px 4px;
+    
+}
+.perfume_t li a{
+    display: block;
+    width:120px;
+    height: 120px;
+    padding:5px;
+    border-bottom: sandybrown 1px solid;
+}
+.perfume_t li a img{
+    width: 100%;
+    height: 100%;
+   
+}
+.perfume_t p a{
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    border:none;
+}
+.perfume_t span{
+    display: block;
+    width:130px;
+    text-align: center;
+    font-size: 12px;
+    color: red;
+}
+

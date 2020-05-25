@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1587741863026'); /* IE9 */
+  src: url('iconfont.eot?t=1587741863026#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAO4AAsAAAAAB6QAAANrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDBIJlATYCJAMMCwgABCAFhG0HPRuyBsgekiRIQAJFUaAOnbEtjofv92Od+977gmsSjQzVp4smSJCoeAkQKpW2G4qVuNM9b+b/dOoPEF+ISUrLsn2SZfPpFACaCshbOwLgmKm89xkccgfGGPOWZ5JP3Dv9K/H5LMtpTRrbxlzUBRgHFNDe2CYrkIA88IaxC1riaQKdZqWw2qtr6QFHhTkpEDeiwIFjRq80ZIZWqCtWFohXsNOmJeungJfg8/GPrHAESZXBnLl/XauCip/RG8k2kxbZ6hEgnc4Kto6MNaAQF5X2czZRcI2NTlVj25xYK0KaymOxEEg0Xb3RH14iajDTu8ESDCV+RjsCgp/JIQnXv44aLW6Bd8QavlcjSniXm4tPj+fzlJXL4IcP7N6AqaNWU++z3r9n3r7tedfrtz/xnXe/07G7V7Sf3qFDoczBkA8Mv5J7O7fnzB3n5QLmg/rG++ijEb37At/2dl6JRcP9K7Hv3vUM/GPLcfff9y7n3cljT992WSnufSv17Fr2Z/YcOHg2wG336f37YmZKASJLo8edNhJ2LCzc2j8VT+uPFQlPh8fhbv7/cg/UK2z+j8Tsht3bzt1PHveMGWOznQ1Lqs/rmf35Ls1BVdZNMbl1yVnr7K+A7Jc5a7UTFRUxzoaF3u/rWXKBS0NgTdYn/53TntuW6KWV367oI59212QmxnfnXP8Zk1tbkrUuKDnwr/t5IfyCu9Ng7VzYsZvXwuZq7QT4cLbKywFZGvpX37Hxxh7s8Cj57+hiC/DjUeyZwPnhAt117Z04gj8j7dhUNLlpyEWROBIjkl1xuG8RFHGt/5ENg74P1410Tie0RhIkjRlkrTmysNZQ6bKOWmsTnVbVr+8yhLARxQlYMQcQ+l1F0usLsn7PyML6hsqon6j1hw06nYbPjl0WQnSuJpijWIUUQ0hUGg28baLOYWYXFmQdR9LygM1gIokelJmWkY/UYwMmU8yR+oUsSnnEE6Me1YHzsE5nRCZi1GAlTVNTaipKT+erXpSmNOrB2S4C41CYCqIwBBEpGRnwXnvKufD+LphApsMhDQ1VYQZGSMTukUxpMjqQ9RpDp4ZbuUTST5CFongIjzDSQ+qAFdNZQSPEVD1MA1Oi0qgH+E2KpKNWfFdN2vI6/fvtgE5mzxzWVjZWttD1aJTtBQbBLHMGu0GR03EAAA==') format('woff2'),
+  url('iconfont.woff?t=1587741863026') format('woff'),
+  url('iconfont.ttf?t=1587741863026') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1587741863026#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youyongquan:before {
+  content: "\e623";
+}
+
+.icon-xiala:before {
+  content: "\e62b";
+}
+

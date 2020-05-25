@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* icon */
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+/* content */
+#content{
+    width:100%;
+    height:403px;
+    padding-top: 26px;
+    background: #fcfcfc;
+}
+ .con_box{
+    width: 980px;
+    height:403px;
+    margin:0 auto;
+}
+.con_left{
+    width:510px;
+    height: 315px;
+    margin-top:45px;
+}
+.con_img img{
+    width:100%;
+    height:100%;
+}
+.con_right{
+    position: relative;
+    width:330px;
+    height: 358px;
+    padding: 45px 35px 0 35px;
+    background: #fff;
+}
+.enter_txt{
+    width:330px;
+    height:30PX;
+}
+.enter_txt h4{
+    float: left;
+    font-size: 12px;
+    color: #666;
+    font-weight: bold;
+    line-height: 30px;
+    
+}
+.enter_txt a{
+    float: right;
+    line-height:30px;
+    color: #06c;
+    font-size: 12px;
+    
+}
+.enter_name{
+    width: 292px;
+    height: 24px;
+    padding-bottom:10px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    padding: 14px 18px;
+    border: 1px solid #dedede;
+    background: #FFF;
+    line-height: 24px;
+}
+.icon{
+    width: 42px;
+    color: #666;
+    font-size:20px;
+}
+.username{
+    width:230px;
+    height: 24px;
+    padding-left: 3px;
+    border: 0 none;
+    line-height: 24px;
+    font-size: 14px;
+}
+.enter_pass{
+    width: 292px;
+    height: 24px;
+    padding-bottom:10px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    padding: 14px 18px;
+    border: 1px solid #dedede;
+    background: #FFF;
+    line-height: 24px;
+}
+.userpass{
+    width:230px;
+    height: 24px;
+    padding-left: 3px;
+    border: 0 none;
+    line-height: 24px;
+    font-size: 14px;
+}
+.enter_motion{
+    width:330px;
+    height: 24px;
+    position: relative;
+    margin: 10px 0;
+    font-size: 12px;
+    line-height:24px;
+    color: #999;
+}
+.checked{
+    display: inline-block;
+    widows: 24px;
+    padding-top:3px;
+}
+.wjmm{
+    font-size: 12px;
+    line-height:24px;
+    color: #999;
+    padding-left: 190px;
+}
+#enter_dr{
+    width: 330px;
+    height: 52px;
+    border:none;
+    border-radius:4px;
+    background: red;
+    color: #fff;
+    font-size:16px;
+    line-height:52px;
+    text-align:center;
+}
+.hz{
+    width: 330px;
+    height: 16px;
+    padding: 15px 0;
+    color: #666;
+    font-size: 12px;
+}
+.hz-box svg{
+    font-size: 30px;
+}
+.gdhz{
+    float: right;
+    display: block;
+    line-height: 34px;
+    color: #999;
+    font-size: 12px;
+    
+}
+.gdhz_box{
+    display:none;
+    width:330px;
+    height: 52px;
+    margin-top: 15px;
+    font-size:12px;
+}
+.gdhz_box svg{
+    font-size:20px;
+}
+.gdhz_box a{
+    z-index:10;
+    color: #666;
+}

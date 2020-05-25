@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册账户</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="../icon/font/iconfont.css">
+</head>
+
+<body>
+
+    <!-- logo -->
+    <div class="logo-box box_size">
+        <div class="logo_wrap ">
+            <a href="./index.html" class="logo_img float_left">
+                <img src="../img/common/logo.png" alt="">
+            </a>
+            <div class="logo_text float_right">
+                <div class="help-wrap float_right">
+                    <ul class="help_right box_size">
+                        <li>
+                            <a href="">
+                                <i class="iconfont icon-youyongquan"></i>
+                                帮助中心
+                                <i class="iconfont icon-xiala"></i>
+                            </a>
+                        </li>
+                        <ul class="nav_two">
+                            <li>
+                                <a href="#">包裹跟踪</a>
+                            </li>
+                            <li>
+                                <a href="#">常见问题</a>
+                            </li>
+                            <li>
+                                <a href="#">在线退换货</a>
+                            </li>
+                            <li>
+                                <a href="#">在线投诉</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+                <span class="help_text float_left">
+                    你好，欢迎光临1号店！
+                    <a href="./login.html" class="dr">请登入</a>
+                </span>
+            </div>
+
+        </div>
+    </div>
+    <!-- enroll-box -->
+    <div class="enroll-box box_size">
+        <div class="enroll-form">
+            <h2 class="enroll_tag">用户注册</h2>
+            <div class="form_box">
+                <ul>
+                    <li id="li_username" class="li-J">
+                        <input class="enroll_input" type="text" id="username" onchange="isuserName()" placeholder="用户名（4-15位字符，可由英文、数字或符号“_”组成）">
+                    </li>
+                    <div></div>
+                    <li id="li_nickname" class="li-J">
+                        <input class="enroll_input" type="text" id="nickname" onchange="isNickName()" placeholder="昵称（1-50位字符，可由英文、数字或符号“_”组成）">
+                    </li>
+                    <div></div>
+                    <li id="li_pass" class="li-J">
+                        <input class="enroll_input" type="password" id="userpass" onchange="isPass()" placeholder="设置密码（6-20个大小写英文字母的组合）">
+                    </li>
+                    <div></div>
+                    <li id="li_to_pass" class="li-J">
+                        <input class="enroll_input" type="password" id="topass" onchange="isTopass()" placeholder="再次输入密码">
+                    </li>
+                    <div></div>
+                    <li>
+                        <div class="protocol">
+                            点击注册，表示您同意<a href="#">《服务协议及隐私声明》</a>
+                        </div>
+                        <input id="zc" type="button" class="enroll_btn" onclick="signup()" value="同意协议并注册">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer-wrap">
+        <div class="footer_box">
+            <div class="ft_head box_size">
+                <a class="fhd_tx" href="#">
+                    <img class="fhd_img float_left" src="../img/index/fhd_img1.jpg" alt="">
+                    <b class="float_left">正品保障</b>
+                    <span class="float_left">正品行货 放心选购</span>
+                </a>
+                <a class="fhd_tx" href="#">
+                    <img class="fhd_img float_left" src="../img/index/fhd_img2.jpg" alt="">
+                    <b class="float_left">全场包邮</b>
+                    <span class="float_left">全场包邮 免运费</span>
+                </a>
+                <a class="fhd_tx" href="#">
+                    <img class="fhd_img float_left" src="../img/index/fhd_img3.jpg" alt="">
+                    <b class="float_left">售后无忧</b>
+                    <span class="float_left">7天无理由退货</span>
+                </a>
+                <a class="fhd_tx" href="#">
+                    <img class="fhd_img float_left" src="../img/index/fhd_img4.jpg" alt="">
+                    <b class="float_left">准时送达</b>
+                    <span class="float_left">收货时间由你做主</span>
+                </a>
+            </div>
+            <div class="ft_link">
+                <div class="link_box float_left">
+                    <dl>
+                        <dt>新手入门</dt>
+                        <dd><a href="#">购物流程</a></dd>
+                        <dd><a href="#">会员制度</a></dd>
+                        <dd><a href="#">订单查询</a></dd>
+                        <dd><a href="#">服务协议及隐私说明</a></dd>
+                        <dd><a href="#">网站地图</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>支付方式</dt>
+                        <dd><a href="#">货到付款</a></dd>
+                        <dd><a href="#">网上支付</a></dd>
+                        <dd><a href="#">礼品卡支付</a></dd>
+                        <dd><a href="#">其他支付</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>配送服务</dt>
+                        <dd><a href="#">配送进度查询</a></dd>
+                        <dd><a href="#">商品验货与签收</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>售后保障</dt>
+                        <dd><a href="#">退货政策</a></dd>
+                        <dd><a href="#">发票制度</a></dd>
+                        <dd><a href="#">帮助中心</a></dd>
+                    </dl>
+                </div>
+                <div class="middle_right float_right">
+                    <div class="float_left">
+                        <span>APP更优惠</span>
+                        <img src="../img/index/code.png" />
+                    </div>
+                    <div class="float_left">
+                        <span>加微信查订单</span>
+                        <img src="../img/index/code.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p class="frbm_text"><a href="#">泸ICP备16050468 </a>&nbsp;|&nbsp;<a href="#"> 经营证照 </a>&nbsp;|&nbsp;<a
+                    href="#"> 互联网药品信息服务资格证 </a>&nbsp;|&nbsp;<a href="#"> 违证和不良信息举报电话:0527-88100253 </a>&nbsp;|&nbsp;<a
+                    href="#"> 泸B2-20270039 </a>&nbsp;|&nbsp;<a href="#"> 泸公安网备 310105020002939号 </a>&nbsp;|&nbsp;<a
+                    href="#"> 友情链接 </a>&nbsp;|&nbsp;<a href="#"> 出版物经营许可证 </a>&nbsp;|&nbsp;<a href="#"> 增值电信物业经营许可证</a>
+            </p>
+            <p class="frbm_text"><a href="">Copyright&copy; 李宁官方旗舰店 2019-2020, All Rights Reserved</a></p>
+        </div>
+    </div>
+</body>
+<script src="../js/signup.js"></script>
+</html>
