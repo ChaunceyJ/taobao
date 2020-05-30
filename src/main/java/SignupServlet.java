@@ -46,6 +46,7 @@ public class SignupServlet extends HttpServlet {
                 results.put("state", 0);
             }
             psmt.close();
+            conn.close();
         }catch (Exception e){
             e.printStackTrace();
             results.put("state", 0);

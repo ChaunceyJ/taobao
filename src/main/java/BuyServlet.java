@@ -50,6 +50,7 @@ public class BuyServlet extends HttpServlet {
                 st.executeUpdate("update product set product.remind_total = product.remind_total-1 where product_id = "+jo.getInteger("product_id"));
             }
             pst.close();
+            conn.close();
             re.put("state", 1);
             re.put("list", list);
         }catch (Exception e){

@@ -50,6 +50,7 @@ public class GetOrderServlet extends HttpServlet {
 //            System.out.println(list);
             rs.close();
             st.close();
+            conn.close();
         }catch (Exception e){
             e.printStackTrace();
         }

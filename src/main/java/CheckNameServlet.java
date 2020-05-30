@@ -35,6 +35,7 @@ public class CheckNameServlet extends HttpServlet {
             }
             rs.close();
             psmt.close();
+            conn.close();
         }catch (Exception e){
             e.printStackTrace();
             results.put("state", 1);

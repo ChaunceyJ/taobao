@@ -38,6 +38,7 @@ public class ProductInfoServlet extends HttpServlet {
                 rs.close();
                 st.close();
             }
+            conn.close();
         }catch (Exception e){
             e.printStackTrace();
         }
@@ -60,6 +61,7 @@ public class ProductInfoServlet extends HttpServlet {
             }
             rs.close();
             st.close();
+            conn.close();
         }catch (Exception e){
             e.printStackTrace();
         }

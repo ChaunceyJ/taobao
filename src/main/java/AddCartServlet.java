@@ -40,6 +40,7 @@ public class AddCartServlet extends HttpServlet {
                 psmt.executeUpdate();
             }
             psmt.close();
+            conn.close();
         }catch (Exception e){
             e.printStackTrace();
         }

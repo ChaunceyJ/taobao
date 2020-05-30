@@ -8,7 +8,7 @@ public class Connect {
     // 驱动，固定的
     private static String driverName = "com.mysql.cj.jdbc.Driver";
 
-    private static String url = "jdbc:mysql://localhost:3306/taobao?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
+    private static String url = "jdbc:mysql://172.18.0.2:3306/taobao?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
     private static String user = "root";
     private static String password = "123456";
 
@@ -20,7 +20,7 @@ public class Connect {
     private Connect(){}
 
     public static Connection getConn()throws Exception{
-        if (conn == null){
+        if (conn == null || conn.isClosed()){
             Class.forName(driverName);
             conn = DriverManager.getConnection(url,user,password);
         }

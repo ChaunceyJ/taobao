@@ -1,4 +1,6 @@
-const address = "http://localhost:8080/taobao_war/";
+// const address = "http://localhost:8080/taobao_war/";
+const address = "http://47.103.27.88:8080/taobao/";
+
 
 // 轮播
 function show_lunbo() {

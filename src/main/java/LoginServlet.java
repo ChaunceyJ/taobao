@@ -41,6 +41,7 @@ public class LoginServlet extends HttpServlet {
             }
             rs.close();
             psmt.close();
+            conn.close();
         }catch (Exception e){
             e.printStackTrace();
             results.put("success", 0);
